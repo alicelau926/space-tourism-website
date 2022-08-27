@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.header-link{
+position: relative;
+margin: 10px 50px;
+width: 542px;
+height: 19px;
+left: 60px;
+top: 40px;
+color: #FFFFFF;
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 16px;
+text-decoration: none;
+}
+
+.header-link:hover{
+    color: black;
+}
+
+.square{
+    position: absolute;
+width: 473px;
+height: 1px;
+left: 167px;
+top: 88px;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.25;
+}
+
+.small-dot{
+position: absolute;
+width: 48px;
+height: 48px;
+left: 55px;
+top: 64px;
+background-color: white;
+border-radius: 50%;
+  display: inline-block;
+}
+
+.rectangle{
+position: absolute;
+width: 830px;
+height: 96px;
+left: 610px;
+top: 40px;
+
+background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(81.5485px);
+}
+
+.line{
+position: absolute;
+width: 90px;
+height: 1px;
+left: 870px;
+top: 133px;
+background-color: white;
+}
+
+.pick{
+position: absolute;
+width: 382px;
+height: 34px;
+left: 250px;
+top: 212px;
+font-family: 'Barlow Condensed', sans-serif;
+color: white;
+font-size: 28px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 4.724999904632568px;
+text-align: left;
+}
+
+.moon-img{
+position: absolute;
+width: 400px;
+height: 400px;
+left: 230px;
+top: 343px;
+}
+
+.num{
+position: absolute;
+width: 382px;
+height: 34px;
+left: 190px;
+top: 212px;
+font-family: 'Barlow Condensed', sans-serif;
+color: white;
+font-size: 28px;
+mix-blend-mode: normal;
+opacity: 0.25;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 4.724999904632568px;
+text-align: left;
+}
+
+.middle-link{
+position: relative;
+margin: 10px 50px 10px 0;
+width: 445px;
+left: 832px;
+top: 290px;
+
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+color: white;
+text-decoration: none
+}
+
+.middle-link:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.moon-text{
+position: absolute;
+width: 445px;
+left: 832px;
+top: 260px;
+
+font-family: 'Bellefair', serif;
+font-weight: 400;
+font-size: 90px;
+line-height: 115px;
+color: #FFFFFF;
+}
+
+.see{
+position: absolute;
+width: 445px;
+left: 832px;
+top: 450px;
+
+font-family: 'Barlow', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #D0D6F9;
+}
+
+.divider{
+position: absolute;
+width: 443px;
+height: 0.2px;
+left: 832px;
+top: 640px;
+background-color: white;
+}
+
+.average{
+position: absolute;
+width: 445px;
+left: 832px;
+top: 650px;
+
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 2.3625px;
+text-transform: uppercase;
+color: #D0D6F9;
+}
+
+.est{
+position: absolute;
+width: 445px;
+left: 1050px;
+top: 650px;
+
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 2.3625px;
+text-transform: uppercase;
+color: #D0D6F9;
+}
+
+.km{
+position: absolute;
+width: 445px;
+left: 832px;
+top: 665px;
+font-family: 'Bellefair', serif;
+font-size: 28px;
+line-height: 32px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.days{
+position: absolute;
+width: 445px;
+left: 1050px;
+top: 665px;
+font-family: 'Bellefair', serif;
+font-size: 28px;
+line-height: 32px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
